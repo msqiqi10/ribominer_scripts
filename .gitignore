@@ -1,0 +1,5 @@
+aligned/
+source_fastq/
+quality_filtered/
+star_out/
+trimmed_out/
