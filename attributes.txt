@@ -1,0 +1,5 @@
+bamFiles	readLengths	Offsets	bamLegends	
+/home/zzz0054/bio/7-5/star_out/5008134/Aligned.toTranscriptome.out.sorted.bam	27,28,29,30	11,12,13,14	si-Ctrl-1	
+/home/zzz0054/bio/7-5/star_out/5008135/Aligned.toTranscriptome.out.sorted.bam	27,28,29,30	11,12,13,14	si-Ctrl-2	
+/home/zzz0054/bio/7-5/star_out/5008136/Aligned.toTranscriptome.out.sorted.bam	27,28,29	11,12,13	si-eIF5A-1	
+/home/zzz0054/bio/7-5/star_out/5008137/Aligned.toTranscriptome.out.sorted.bam	27,28,29	11,12,13	si-eIF5A-2

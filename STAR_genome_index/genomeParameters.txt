@@ -1,0 +1,19 @@
+### /home/zzz0054/miniconda3/envs/ribo4/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 8   --genomeDir /home/zzz0054/bio/7-5/STAR_genome_index/   --genomeFastaFiles /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa      --sjdbGTFfile /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.112.gtf   --sjdbOverhang 100
+### GstrandBit 32
+versionGenome	2.7.4a
+genomeType	Full
+genomeFastaFiles	/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa 
+genomeSAindexNbases	14
+genomeChrBinNbits	18
+genomeSAsparseD	1
+genomeTransformType	None
+genomeTransformVCF	-
+sjdbOverhang	100
+sjdbFileChrStartEnd	- 
+sjdbGTFfile	/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.112.gtf
+sjdbGTFchrPrefix	-
+sjdbGTFfeatureExon	exon
+sjdbGTFtagExonParentTranscript	transcript_id
+sjdbGTFtagExonParentGene	gene_id
+sjdbInsertSave	Basic
+genomeFileSizes	14753228 100896720

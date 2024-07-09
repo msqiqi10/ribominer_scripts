@@ -1,0 +1,116 @@
+STAR version=2.7.11b
+STAR compilation time,server,dir=2024-03-19T08:38:59+0000 :/opt/conda/conda-bld/star_1710837244939/work/source
+##### Command Line:
+/home/zzz0054/miniconda3/envs/ribo4/bin/STAR-avx2 --runThreadN 8 --runMode genomeGenerate --genomeDir /home/zzz0054/bio/7-5/STAR_genome_index/ --genomeFastaFiles /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa --sjdbGTFfile /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.112.gtf --sjdbOverhang 100
+##### Initial USER parameters from Command Line:
+###### All USER parameters from Command Line:
+runThreadN                    8     ~RE-DEFINED
+runMode                       genomeGenerate        ~RE-DEFINED
+genomeDir                     /home/zzz0054/bio/7-5/STAR_genome_index/     ~RE-DEFINED
+genomeFastaFiles              /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa        ~RE-DEFINED
+sjdbGTFfile                   /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.112.gtf     ~RE-DEFINED
+sjdbOverhang                  100     ~RE-DEFINED
+##### Finished reading parameters from all sources
+
+##### Final user re-defined parameters-----------------:
+runMode                           genomeGenerate   
+runThreadN                        8
+genomeDir                         /home/zzz0054/bio/7-5/STAR_genome_index/
+genomeFastaFiles                  /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa   
+sjdbGTFfile                       /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.112.gtf
+sjdbOverhang                      100
+
+-------------------------------
+##### Final effective command line:
+/home/zzz0054/miniconda3/envs/ribo4/bin/STAR-avx2   --runMode genomeGenerate      --runThreadN 8   --genomeDir /home/zzz0054/bio/7-5/STAR_genome_index/   --genomeFastaFiles /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa      --sjdbGTFfile /home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.112.gtf   --sjdbOverhang 100
+----------------------------------------
+
+Number of fastq files for each mate = 1
+ParametersSolo: --soloCellFilterType CellRanger2.2 filtering parameters:  3000 0.99 10
+Finished loading and checking parameters
+--genomeDir directory created: /home/zzz0054/bio/7-5/STAR_genome_index/
+Jul 09 06:23:36 ... starting to generate Genome files
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 0  "I" chrStart: 0
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 1  "II" chrStart: 262144
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 2  "III" chrStart: 1310720
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 3  "IV" chrStart: 1835008
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 4  "V" chrStart: 3407872
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 5  "VI" chrStart: 4194304
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 6  "VII" chrStart: 4718592
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 7  "VIII" chrStart: 6029312
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 8  "IX" chrStart: 6815744
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 9  "X" chrStart: 7340032
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 10  "XI" chrStart: 8126464
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 11  "XII" chrStart: 8912896
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 12  "XIII" chrStart: 10223616
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 13  "XIV" chrStart: 11272192
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 14  "XV" chrStart: 12058624
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 15  "XVI" chrStart: 13369344
+/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.dna.toplevel.fa : chr # 16  "Mito" chrStart: 14417920
+Chromosome sequence lengths: 
+I	230218
+II	813184
+III	316620
+IV	1531933
+V	576874
+VI	270161
+VII	1090940
+VIII	562643
+IX	439888
+X	745751
+XI	666816
+XII	1078177
+XIII	924431
+XIV	784333
+XV	1091291
+XVI	948066
+Mito	85779
+Genome sequence total length = 12157105
+Genome size with padding = 14680064
+Jul 09 06:23:37 ..... processing annotations GTF
+Processing pGe.sjdbGTFfile=/home/zzz0054/bio/7-5/Saccharomyces_cerevisiae.R64-1-1.112.gtf, found:
+		7127 transcripts
+		7507 exons (non-collapsed)
+		364 collapsed junctions
+Total junctions: 364
+Jul 09 06:23:37 ..... finished GTF processing
+
+!!!!! WARNING: --genomeSAindexNbases 14 is too large for the genome size=12157105, which may cause seg-fault at the mapping step. Re-run genome generation with recommended --genomeSAindexNbases 10
+Estimated genome size with padding and SJs: total=genome+SJ=215680064 = 14680064 + 201000000
+GstrandBit=32
+Number of SA indices: 24314210
+Jul 09 06:23:37 ... starting to sort Suffix Array. This may take a long time...
+Number of chunks: 8;   chunks size limit: 27787664 bytes
+Jul 09 06:23:37 ... sorting Suffix Array chunks and saving them to disk...
+Writing 4421248 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_7 ; empty space on disk = 214149193728 bytes ... done
+Writing 27533096 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_0 ; empty space on disk = 214144765952 bytes ...Writing 26465824 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_6 ; empty space on disk = 214117994496 bytes ... done
+Writing 26968640 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_5 ; empty space on disk = 214092345344 bytes ... done
+ done
+Writing 26881904 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_1 ; empty space on disk = 214063763456 bytes ...Writing 27611880 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_2 ; empty space on disk = 214054313984 bytes ... done
+ done
+Writing 27319968 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_4 ; empty space on disk = 214009266176 bytes ... done
+Writing 27311120 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA_3 ; empty space on disk = 213981945856 bytes ... done
+Jul 09 06:23:39 ... loading chunks from disk, packing SA...
+Jul 09 06:23:39 ... finished generating suffix array
+Jul 09 06:23:39 ... generating Suffix Array index
+Jul 09 06:23:45 ... completed Suffix Array index
+Jul 09 06:23:45   Finished preparing junctions
+Jul 09 06:23:45 ..... inserting junctions into the genome indices
+Jul 09 06:23:45   Finished SA search: number of new junctions=364, old junctions=0
+Jul 09 06:23:45   Finished sorting SA indicesL nInd=145600
+Genome size with junctions=14753228  14680064   73164
+GstrandBit1=32   GstrandBit=32
+Jul 09 06:23:45   Finished inserting junction indices
+Jul 09 06:23:52   Finished SAi
+Jul 09 06:23:52 ..... finished inserting junctions into genome
+Jul 09 06:23:52 ... writing Genome to disk ...
+Writing 14753228 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//Genome ; empty space on disk = 214149140480 bytes ... done
+SA size in bytes: 100896720
+Jul 09 06:23:52 ... writing Suffix Array to disk ...
+Writing 100896720 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SA ; empty space on disk = 214134386688 bytes ... done
+Jul 09 06:23:52 ... writing SAindex to disk
+Writing 8 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SAindex ; empty space on disk = 214033489920 bytes ... done
+Writing 120 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SAindex ; empty space on disk = 214033489920 bytes ... done
+Writing 1565873491 bytes into /home/zzz0054/bio/7-5/STAR_genome_index//SAindex ; empty space on disk = 214033489920 bytes ... done
+Jul 09 06:23:53 ..... finished successfully
+DONE: Genome generation, EXITING
