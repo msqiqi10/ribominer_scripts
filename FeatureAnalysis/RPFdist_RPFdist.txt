@@ -1,0 +1,5 @@
+	si-Ctrl-1	si-Ctrl-2	si-eIF5A-1	si-eIF5A-2
+YOR312C_mRNA	0.0	0.0	0.0	0.0
+YMR242C_mRNA	0.0	0.0	0.0	0.0
+YIL111W_mRNA	0.0	0.0	0.0	0.0
+YJL041W_mRNA	0.0	0.0	0.0	0.0
