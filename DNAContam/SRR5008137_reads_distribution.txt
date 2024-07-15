@@ -1,4 +1,0 @@
-unique mapped reads of exon: 12465138
-unique mapped reads of intergenic region: 138304
-unique mapped reads of intron: 1880
-unique mapped ambiguous reads of RNA: 101230

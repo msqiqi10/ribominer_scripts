@@ -1,1 +1,0 @@
-AA	codon	si-Ctrl-1	si-Ctrl-2	si-eIF5A-1	si-eIF5A-2
